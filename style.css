@@ -1,0 +1,41 @@
+html {
+    background: linear-gradient(to bottom, #A8A, #FAC);
+    background-size: fit;
+    background-attachment: fixed;
+}
+
+body {
+    margin: 0px; padding: 0px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    min-height: 100vh;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#woh {
+    font-size: 72px;
+    font-weight: bolder;    
+    color: #FFF;  
+    background: transparent;
+}
+
+#woh:hover {    
+    cursor: pointer;
+}
+
+#woh span {
+    display: block;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 300ms, text-shadow 300ms;
+}
+
+#woh:hover span {
+    transform: translateY(-50px) rotate(-45deg);
+    text-shadow: -20px 20px 20px rgba(0, 0, 0, 0.8);
+}
