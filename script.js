@@ -10,3 +10,5 @@ woh.onmouseover = function() {
         woh.mp3.play();
     }
 }
+
+woh.onclick = woh.onmouseover
