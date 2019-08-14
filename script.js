@@ -1,6 +1,6 @@
 var woh = document.getElementById("woh");
 
-woh.onclick = function() {
+woh.onmouseover = function() {
     if(woh.mp3) {
         if(woh.mp3.paused) woh.mp3.play();
         else woh.mp3.pause();
