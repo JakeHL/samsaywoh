@@ -6,7 +6,7 @@ woh.onclick = function() {
         else woh.mp3.pause();
     }
     else {
-        woh.mp3 = new Audio("/WOT.mp3");
+        woh.mp3 = new Audio("WOT.mp3");
         woh.mp3.play();
     }
 }
